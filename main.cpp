@@ -9,7 +9,9 @@ int main()
 	printout(number, last);
 	bubble(number, last);
 	printout(number, last);
-	// for (int i = 0; i < last; i++)
-	// 	bubble(number, last);
-	// printout(number, last);
+	
+
+	for (int i = 0; i < last-1; i++)
+		bubble(number, last);
+	printout(number, last);
 }
